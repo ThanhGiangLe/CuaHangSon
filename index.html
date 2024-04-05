@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME WEB</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/BG-Header.css">
+        <link rel="stylesheet" href="/css/slide.css">
+        <link rel="stylesheet" href="/css/products.css">
+        <link rel="stylesheet" href="/css/content.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/tintuc.css">
+
+        <script src="/js/home.js"></script>
+
+
+    </head>
+
+    <body>
+
+
+        <!-------HEADER----------->
+        <header class="header-web">
+            <div class="menu">
+                <div class="logo">
+                    <a href="/html/home.html"><img src="/img/logo.webp"></a>
+                </div>
+                <div class="list-menu">
+                    <ul>
+                        <li class="sub-list-menu">
+                            <a href="/html/home.html">Trang chủ</a>
+                        </li>
+                        <li class="sub-list-menu">
+                            <a href="/html/aboutus.html">Giới thiệu</a>
+                        </li>
+
+                        <li class="product">
+                            <a  href="javascript:void(0);" onclick="menuList()">Sản phẩm</a>
+                            <ul class="dropdown-content" id="productID">
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Son Tint</a></li>
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Son Kem</a></li>
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Son Bóng</a></li>
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Phấn phủ</a></li>
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Phấn mắt</a></li>
+                                <li class="list-dropdown-content"><a href="/html/Sảnn_phẩm.html">Khác</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sub-list-menu">
+                            <a href="/html/ĐK.html">Đăng ký</a>
+                        </li>
+
+                        <li class="news">
+                            <a href="/html/tintuc.html">Tin tức</a>
+                            <ul class="news-dropdown-content">
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Cẩm nang làm đẹp</a></li>
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Makeup</a></li>
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Sức khoẻ phụ nữ</a></li>
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Mỹ phẩm</a></li>
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Làm đẹp cùng star</a></li>
+                                <li class="list-dropdown-content"><a href="/html/tintuc.html">Khác</a></li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <input id="inputsearch" type="text" placeholder="Search...">
+                    <a href="#"><img src="/img/loupe.png"></a>
+                </div>
+
+                <div class="cartTrangChu">
+                    <img src="/img/ecommerce.png">
+                </div>
+
+            </div>
+        </header>
+
+
+
+        <!-------BG-HEADER----------->
+
+        <section class="bg-menu">
+                <div id="bg"></div>
+        </section>
+
+
+
+        <!-------SLIDESHOW----------->
+        <div class="slider">
+            <div class="title">
+                <h2>Sản Phẩm Mới</h2>
+            </div>
+            <div class="controls">
+                <div class="up">
+                    <i class="fa fa-chevron-up"></i>
+                </div>
+                <div class="down">
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="left">
+                    <div>
+                        <h2>Son Tint Black Rouge Glow Bokki Tint 49.1g</h2>
+                        <p>
+                            Glow Bokki Tint - Siêu phẩm siêu độc đáo “khuấy đảo” cộng đồng làm đẹp đã được ra mắt với
+                            concept tokbokki độc đáo. BST son chia thành 3 nhóm màu chủ đạo tượng trưng cho 3 loại sốt
+                            tokbokki nổi tiếng nhất của Hàn Quốc. BST là nét giao thoa hài hòa giữa ẩm thực và makeup, hứa
+                            hẹn sẽ làm siêu lòng các “tín đồ” đam mê cái đẹp và văn hóa ẩm thực xứ Hàn.
+                        </p>
+                    </div>
+    
+                    <div>
+                        <h2>Black Rouge Pearlvely I Glitter Triangle</h2>
+                        <p>
+                            Biến hóa cho đôi mắt long lanh với nhũ mắt mới nhất của nhà Black Rouge: Pearlvely I Glitter -
+                            Triangle. Với khả năng “hô biến” ra một đôi mắt long lanh đa chiều, đẹp hoàn hảo ở mọi góc độ
+                            với Glitter tam giác độc đáo, lạ mắt, Pearlvely I Glitter - Triangle hứa hẹn sẽ là một hot item
+                            “nhỏ mà có võ” trong túi makeup của mọi cô gái. </p>
+                    </div>
+    
+                    <div>
+                        <h2>Phấn nước Black Rouge Peach Cover Velvet Cushion</h2>
+                        <p>
+                            Thời gian gần đây, Black Rouge liên tục mang đến những sản phẩm trang điểm “hớp hồn” tín đồ làm
+                            đẹp, và Peach Cover Velvet Cushion là sản phẩm mới nhất của hãng cho mùa thu này. Lấy cảm hứng
+                            từ những quả đào mùa thu căng mọng, Black Rouge đã cho ra mắt Peach Cover Velvet Cushion với
+                            finish mịn mượt như nhung, che phủ hoàn hảo gương mặt nhưng vẫn mỏng nhẹ và khô thoáng trên da.
+                        </p>
+                    </div>
+    
+                    <div>
+                        <h2>Son bóng Black Rouge Half N Half Water Glow Season 2</h2>
+                        <p>
+                            Với nhiều người, mùa thu chính là khoảng thời tiết đẹp nhất trong năm! Khi mà chúng ta thoát
+                            được ra khỏi không khí nóng bức của mùa hè, cũng không phải đối diện với cái lạnh khắc nghiệt
+                            của mùa đông thì đây chính xác là khoảng thời gian lí tưởng cho những buổi hẹn hò, những cuộc
+                            dạo chơi…
+                        </p>
+                    </div>
+    
+                    <div>
+                        <h2>Son kem Black Rouge Airfit Velvet Tint Ver 8 THE CRYSTAL</h2>
+                        <p>
+                            Bộ sưu tập Air Fit Velvet Tint Ver .8 mang tên THE CRYSTAL với thông điệp “Special you, special
+                            version” là một phiên bản đặc biệt mà sự độc đáo không chỉ đến từ thiết kế hologram bên ngoài mà
+                            còn mang ý nghĩa dù bạn là ai, phong cách của bạn là gì,…
+                        </p>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="right">
+                    <div>
+                        <img src="/img/spm6.webp"
+                            alt="Black Rouge Airfit Velvet Tint Ver 8 THE CRYSTAL" />
+                    </div>
+                    <div>
+                        <img src="/img/hw.webp"
+                            alt="Black Rouge Half N Half Water Glow Season 2" />
+                    </div>
+                    <div>
+                        <img src="/img/sp2.webp"
+                            alt="Black Rouge Peach Cover Velvet Cushion" />
+                    </div>
+                    <div>
+                        <img src="/img/spm3.webp"
+                            alt="Black Rouge Pearlvely I Glitter Triangle" />
+                    </div>
+                    <div>
+                        <img src="/img/spmoi1.webp"
+                            alt="Tint Black Rouge Glow Bokki Tint" />
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <!-------SAN-PHAM-------->
+        <section class="DanhMucSanPham ">
+            <div class="title-DanhMucSanPham">
+                <h2>Danh Mục Sản Phẩm</h2>
+            </div>
+
+            <div class="rows-DanhMucSanPham">
+                <div class="col-4 ">
+                    <a href="/html/Sảnn_phẩm.html">
+                        <img src="/img/sontint.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Son Tint</a>
+                    </p>
+                </div>
+
+                <div class="col-4 ">
+                    <a href="#">
+                        <img src="/img/sonbong.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Son Bóng</a>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/sonkem.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Son Kem</a>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/cara.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Mắt Cara</a>
+                    </p>
+                </div>
+                
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/chi.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Chì Kẻ Mắt</a>
+                    </p>
+                </div> 
+                
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/kemat.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Eyeliner</a> 
+                    </p>
+                </div> 
+                
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/phan.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Cushion</a>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <a href="#">
+                        <img src="/img/phanmat.webp">
+                    </a>
+                    <p>
+                        <a href="/html/Sảnn_phẩm.html">Phấn Mắt</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-------TIN-TUC--------->
+        <section class="BaiViet">
+            <div class="title-BaiViet">
+                <h2>Tin Tức</h2>
+            </div>
+    
+            <div class="rows-BaiViet">
+                <div class="col-2">
+                    <div class="img-BaiViet">
+                        <a href="/html/tintuc.html">
+                            <img src="/img/thiet-ke-chua-co-ten-33.webp">
+    
+                        </a>
+                    </div>
+    
+                    <div class="content-BaiViet">
+                        <h2>RIPPLESH JELLY BALM</h2>
+                        <p>Bộ sưu tập son dưỡng đầu tiên của Black Rouge - Ripplesh Jelly Balm chính thức chào sân với những
+                            ưu điểm tuyệt vời. Tông màu xanh pastel chủ đạo kèm theo chất son bóng mượt tựa như ánh nắng lấp
+                            lánh phản chiếu lên những gợn sóng lăn tăn.</p>
+                    </div>
+                </div>
+    
+    
+                <div class="col-2">
+                    <div class="img-BaiViet">
+                        <a href="/html/tintuc.html">
+                            <img src="/img/thiet-ke-chua-co-ten-26.webp">
+                        </a>
+                    </div>
+    
+                    <div class="content-BaiViet">
+                        <h2>KHUẤY ĐỘNG MÙA TỰU TRƯỜNG CÙNG MUDDISH CUSHION VELVET</h2>
+                        <p>Khuấy động mùa tựu trường cùng Mudddish Cushion Velvet- BST son hoàn toàn mới của nhà Blackrouge.
+                            Chất son cushion độc đáo, mới lạ kết hợp cùng thiết kế tông nude sang chảnh hứa hẹn " đốn tim"
+                            phái đẹp. </p>
+                    </div>
+                </div>
+    
+    
+                <div class="rows-BaiViet">
+                    <div class="col-2">
+                        <div class="img-BaiViet">
+                            <a href="/html/tintuc.html">
+                                <img src="/img/jhgjgjuiiuuiii8888.jpeg">
+                            </a>
+                        </div>
+        
+                        <div class="content-BaiViet">
+                            <h2>DÒNG THƯƠNG HIỆU "THẦN KÌ" - MANG LẠI TONE MAKEUP CỰC XINH CHO NÀNG</h2>
+                            <p>Black Rouge nổi tiếng với đa dạng các dòng son chất lượng không thể chê vào đâu mà giá thì phải
+                                nói là cực kì hợp lý. Các sản phẩm Black Rouge chỉ có giá dao động khoảng 130k đến 190k. </p>
+                        </div>
+                    </div>
+        
+        
+                    <div class="col-2">
+                        <div class="img-BaiViet">
+                            <a href="/html/tintuc.html">
+                                <img src="/img/thiet-ke-chua-co-ten-11.webp">
+                            </a>
+                        </div>
+        
+                        <div class="content-BaiViet">
+                            <h2>BLACK ROUGE TRỞ LẠI - ĐÁNH TAN CÁI NÓNG MÙA HÈ VỚI HALF N HALF TINTED WATER</h2>
+                            <p>Black Rouge trở lại đánh tan cái “nóng” mùa hè với Half N Half Tinted Water cùng chủ đề “candy
+                                shop” vừa đáng yêu, vừa hiện đại. BST son được ra mắt độc quyền tại thị trường Việt Nam nhằm tri
+                                ân các khách hàng luôn tin tưởng và lựa chọn Black Rouge. 
+        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="rows-BaiViet" id="showMore" style="display: none;">
+                    <div class="col-2">
+                        <div class="img-BaiViet">
+                            <a href="/html/tintuc.html">
+                                <img src="/img/jhgjgjuiiuuiii8888.jpeg">
+                            </a>
+                        </div>
+        
+                        <div class="content-BaiViet">
+                            <h2>DÒNG THƯƠNG HIỆU "THẦN KÌ" - MANG LẠI TONE MAKEUP CỰC XINH CHO NÀNG</h2>
+                            <p>Black Rouge nổi tiếng với đa dạng các dòng son chất lượng không thể chê vào đâu mà giá thì phải
+                                nói là cực kì hợp lý. Các sản phẩm Black Rouge chỉ có giá dao động khoảng 130k đến 190k. </p>
+                        </div>
+                    </div>
+        
+        
+                    <div class="col-2">
+                        <div class="img-BaiViet">
+                            <a href="/html/tintuc.html">
+                                <img src="/img/thiet-ke-chua-co-ten-11.webp">
+                            </a>
+                        </div>
+        
+                        <div class="content-BaiViet">
+                            <h2>BLACK ROUGE TRỞ LẠI - ĐÁNH TAN CÁI NÓNG MÙA HÈ VỚI HALF N HALF TINTED WATER</h2>
+                            <p>Black Rouge trở lại đánh tan cái “nóng” mùa hè với Half N Half Tinted Water cùng chủ đề “candy
+                                shop” vừa đáng yêu, vừa hiện đại. BST son được ra mắt độc quyền tại thị trường Việt Nam nhằm tri
+                                ân các khách hàng luôn tin tưởng và lựa chọn Black Rouge. 
+        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="showTinTuc()" type="button" id="showHide">Show More</button>
+        </section>
+
+
+
+
+
+        <!--SOCIAL -->
+            <div class="social-network" id="fixed-social-network">
+                <a href="https://www.facebook.com/BlackRougeVietnam" id="facebook" class="facebook"><i class="fa fa-facebook"></i>
+                    <p>Facebook</p>
+                </a> 
+                <a href="https://twitter.com/blackrouge_kr" class="twitter"><i class="fa fa-twitter"></i>
+                    <p>Twitter</p>
+                </a> 
+                <a href="https://blackrouge.com.vn/" class="google"><i class="fa fa-google"></i>
+                    <p>Google</p>
+                </a> 
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i>
+                    <p>Linkedin</p>
+                </a>
+                <a href="#" class="youtube"><i class="fa fa-youtube"></i>
+                    <p>Youtube</p>
+                </a> 
+            </div>
+
+
+            
+
+        <!-------FOOTER-------->
+        <footer class="footer-web">
+            <div class="logo">
+                <a href="#"><img src="/img/logo.webp"></a>
+            </div>
+    
+            <div class="rows">
+    
+                <div class="col-4">
+                    <h3>Về chúng tôi</h3>
+                    <ul class="about-us">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href=""> Sản phẩm</a></li>
+                        <li><a href=""> Khuyến mãi</a></li>
+                        <li><a href="">Tin tức</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+    
+    
+                <div class="col-4">
+                    <h3>Chính sách</h3>
+                    <ul class="Policy">
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                        <li><a href="">Chính sách đổi trả</a></li>
+                        <li><a href="">Quy định sử dụng</a></li>
+                    </ul>
+                </div>
+    
+    
+                <div class="col-4">
+                    <h3>Cửa hàng</h3>
+                    <ul class="Store">
+                        <li><a href="#">Lịch hẹn</a></li>
+                        <li><a href="">Chính sách tại cửa hàng</a></li>
+                        <li><a href="">Địa chỉ các cửa hàng</a></li>
+                    </ul>
+                </div>
+    
+    
+                <div class="col-4">
+                    <div class="contact">
+                        <h3>Liên hệ với chúng tôi</h3>
+                        <p><strong>Địa chỉ: </strong>Tòa nhà Bcons Tower II, số 42/1 Ung Văn khiêm, Phường 25, Quận Bình
+                            Thạnh,
+                            TP. Hồ Chí Minh</p>
+                        <p><strong> Email: </strong>cskh@dmnc.vn or blackrougevn@gmail.com</p>
+                        <p><strong> Điện thoại: </strong> 0909 312 350</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="icon-social">
+                <hr>
+                <div class="social">
+                    <a href="#"><img src="/img/facebook_2168281.png"></a>
+                    <a href="#"><img src="/img/instagram_1384015.png"></a>
+                    <a href="#"><img src="/img/tiktok_3116491.png"></a>
+                    <a href="#"><img src="/img/twitter_2168336.png"></a>
+                </div>
+    
+                <div class="info-social">
+                    <p>Công ty TNHH DM&C - MST: 03144724148 do sở Kế Hoạch và Đầu Tư Hồ Chí Minh cấp ngày 08/11/2017</p>
+                    <p>For inquiries about our overseas partnership please send to: overseassales.dmnc@gmail.com</p>    
+    
+                </div>
+                
+    
+             
+    
+            </div>
+    
+    
+        </footer>
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+<!---JAVACRIP-->
+<script src="/js/slide.js"></script>
+<script src="/js/home.js"></script>
+
+
+<script>
+    const S_P = document.getElementById("SP");
+     const inputsearch = document.getElementById("inputsearch");
+     inputsearch.addEventListener("input", Loc);
+
+     
+     function Loc() {
+         const keyword = inputsearch.value.toLowerCase();
+         const products = Array.from(S_P.getElementsByTagName("div"));
+
+         products.forEach(product => {
+             const productName = product.textContent.toLowerCase();
+             if (productName.includes(keyword)) {
+                 product.style.display = "flex"; 
+             } else {
+                 product.style.display = "none"; 
+             }
+         });
+     }
+ document.addEventListener('DOMContentLoaded', function() {
+ const danhmuc = document.getElementById('danhmuc');
+ const SP = document.getElementById("SP").children;
+
+danhmuc.addEventListener('change', function() {
+     const selectedBrand = danhmuc.value;
+
+     for (const product of SP) {
+         if (selectedBrand === 'all' || product.classList.contains(selectedBrand)) {
+             product.style.display = 'flex'; // Show product
+         } else {
+             product.style.display = 'none'; // Hide product
+         }
+     }
+ });
+});
+</script>
+</html>

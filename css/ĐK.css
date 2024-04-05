@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    padding-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #5b5b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ĐK  {
+    padding: 90px  75px;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10%;
+}
+.Tiêu_đề  {
+    color: #373941 ;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.ĐK label
+{
+    font-size: 16px;
+    color: #373941 ;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+   
+.ĐK input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:#F2f3f5 ;
+    outline: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.Đăng_Kí  {
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(130, 201, 30);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 5px  10px  0px rgb(130, 201, 30, 0.5);
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.Dang_Nhap{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: blue;
+}
+
+
+
+   

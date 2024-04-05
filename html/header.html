@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HEADER WEB</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/header.css">
+        <script src="/js/home.js"></script>
+
+    </head>
+
+    
+    <body>
+        <header class="header-web">
+            <div class="menu">
+                <div class="logo">
+                    <a href="#"><img src="/img/logo.webp"></a>
+                </div>
+
+             
+
+                <div class="list-menu sidepanel" id="sidepanel">
+                    <ul>
+                        <li class="sub-list-menu " >
+                            <a href="#">Trang chủ</a>
+                        </li>
+                        <li class="sub-list-menu">
+                            <a href="#">Giới thiệu</a>
+                        </li>
+
+                        <li class="product">
+                            <a  href="javascript:void(0);" onclick="menuList()">Sản phẩm</a>
+                            <ul class="dropdown-content" id="productID">
+                                <li class="list-dropdown-content"><a href="#">Son Tint</a></li>
+                                <li class="list-dropdown-content"><a href="#">Son Kem</a></li>
+                                <li class="list-dropdown-content"><a href="#">Son Bóng</a></li>
+                                <li class="list-dropdown-content"><a href="#">Phấn phủ</a></li>
+                                <li class="list-dropdown-content"><a href="#">Phấn mắt</a></li>
+                                <li class="list-dropdown-content"><a href="#">Khác</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="sub-list-menu">
+                            <a href="#">Đăng ký</a>
+                        </li>
+
+                        <li class="news">
+                            <a href="#">Tin tức</a>
+                            <ul class="news-dropdown-content">
+                                <li class="list-dropdown-content"><a href="#">Cẩm nang làm đẹp</a></li>
+                                <li class="list-dropdown-content"><a href="#">Makeup</a></li>
+                                <li class="list-dropdown-content"><a href="#">Sức khoẻ phụ nữ</a></li>
+                                <li class="list-dropdown-content"><a href="#">Mỹ phẩm</a></li>
+                                <li class="list-dropdown-content"><a href="#">Làm đẹp cùng star</a></li>
+                                <li class="list-dropdown-content"><a href="#">Khác</a></li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <input type="text" id="username" name="username">
+                    <a href="#"><img src="/img/loupe.png"></a>
+                </div>
+
+                <div class="cartTrangChu">
+                    <img src="/img/ecommerce.png">
+                </div>
+
+            </div>
+        </header>
+    </body>
+    <script>
+
+        function toggleMenu() {
+            var sidepanel = document.getElementById("sidepanel");
+            if (sidepanel.style.width === "250px") {
+                sidepanel.style.width = "0";
+            } else {
+                sidepanel.style.width = "250px";
+            }
+        }
+        
+            </script>
+
+</html>
+
+

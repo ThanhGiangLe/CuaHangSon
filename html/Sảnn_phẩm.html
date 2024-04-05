@@ -1,0 +1,317 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    <link rel="stylesheet" href="/css/Sảnn_phẩm.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header-web">
+        <div class="menu">
+            <div class="logo">
+                <a href="/html/home.html"><img src="/img/logo.webp"></a>
+            </div>
+            <div class="list-menu">
+                <ul>
+                    <li class="sub-list-menu">
+                        <a href="/html/home.html">Trang chủ</a>
+                    </li>
+                    <li class="sub-list-menu">
+                        <a href="/html/aboutus.html">Giới thiệu</a>
+                    </li>
+
+                    <li class="product">
+                        <a  href="javascript:void(0);" onmouseout="menuList()">Sản phẩm</a>
+                        <ul class="dropdown-content" id="productID">
+                            <li class="list-dropdown-content"><a href="#">Son Tint</a></li>
+                            <li class="list-dropdown-content"><a href="#">Son Kem</a></li>
+                            <li class="list-dropdown-content"><a href="#">Son Bóng</a></li>
+                            <li class="list-dropdown-content"><a href="#">Phấn phủ</a></li>
+                            <li class="list-dropdown-content"><a href="#">Phấn mắt</a></li>
+                            <li class="list-dropdown-content"><a href="#">Khác</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="sub-list-menu">
+                        <a href="/CK_WEB/HTML/ĐK.html">Đăng ký</a>
+                    </li>
+
+                    <li class="news">
+                        <a href="/html/tintuc.html">Tin tức</a>
+                        <ul class="news-dropdown-content">
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Cẩm nang làm đẹp</a></li>
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Makeup</a></li>
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Sức khoẻ phụ nữ</a></li>
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Mỹ phẩm</a></li>
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Làm đẹp cùng star</a></li>
+                            <li class="list-dropdown-content"><a href="/html/tintuc.html">Khác</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="search">
+                <input id="inputsearch" type="text" placeholder="Search...">
+                <!-- <input type="submit" value="Tìm"> -->
+                <a href="#"><img src="/img/loupe.png"></a>
+            </div>
+
+            <div class="cartTrangChu">
+                <img src="/img/ecommerce.png">
+            </div>
+
+        </div>
+    </header>
+   <section>
+    <header>
+        <div id="menu_2">
+            <ul type="none">
+                <form action="">
+                    <li>Sắp xếp</li>
+                    <li>Giá Sản Phẩm
+                        <select name="Giá" id="">
+                        <option value="SP">Mặc định</option>
+                        <option value="TĐC">Từ Thấp đến Cao</option>
+                        <option value="CĐT">Từ Cao đến Thấp</option>
+                    </select></li>
+                    <li>Loại Sản Phẩm
+                        <select name="Loại" id="danhmuc">
+                            <option value="all">Mặc định</option>
+                            <option value="Son">Son</option>
+                            <option value="Phấn_mắt">Phấn mắt</option>
+                            <option value="Kẻ_mắt">Kẻ mẳt</option>
+                            </select>
+                    </li>
+                    <li>Khu vực
+                        <select name="Khu_vựcc" id="">
+                            <option value="">Mặc định</option>
+                            <option value="TĐC">TP.Hồ Chí Minh</option>
+                            <option value="CĐT">Hà Nội</option>
+                            <option value="CĐT">An Giang</option>
+                            <option value="CĐT">Đồng Tháp</option>
+                            <option value="CĐT">Bình Thuận</option>
+                            <option value="CĐT">Bình Dương</option>
+                            <option value="CĐT">Cần Thơ</option>
+                            <option value="CĐT">Vĩnh Long</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href="/html/home.html">Sản phẩm MỚI</a>
+                    </li>
+                </form>
+            </ul>
+        </div>
+    </header>
+ 
+    <div id="SP">
+        <div class="Son">
+    <div class="row" value="Son">
+        <a href="/html/Mô_taSP.html"><img src="/img/Son1.webp" alt=""></a>
+        <div class="tag"> 49% </div>
+        <a href="/html/Mô_taSP.html"><p class="Tên_SP"> Son Kem Lì Black Rouge Academia Mellow Tint #CM6 </p></a>
+        <a href="/html/Mô_taSP.html"><p class="Giá">179.000đ</p></a>
+        <p class="Giá_gốc">250.000đ</p>
+        <a href="/html/Mô_taSP.html"><button class="buy" type="button">MUA</button>
+        </div></a>
+    <div class="row" value="Son" >
+        <a href="/html/Mô_taSP.html"><img src="/img/son2.webp" alt=""></a>
+        <div class="tag"> 39% </div>
+        <a href="/html/Mô_taSP.html"><p class="Tên_SP"> Son Kem Lì Black Rouge Cyber Mellow Tint #CM6 Brick Emotion </p></a>
+        <a href="/html/Mô_taSP.html"><p class="Giá">169.000đ</p></a>
+        <p class="Giá_gốc">250.000đ</p>
+        <a href="/html/Mô_taSP.html"><button class="buy" type="button">MUA</button></a>
+    </div>
+    <div class="row">
+        <a href="/html/Mô_taSP.html"><img src="/img/son3.webp" alt=""></a>
+        <div class="tag"> 59% </div>
+        <p class="Tên_SP"> Son Kem Lì Black Rouge Noir In The Mellow Tint #M4 </p>
+        <p class="Giá">169.000đ</p>
+        <p class="Giá_gốc">250.000đ</p>
+        <a href="/html/Mô_taSP.html"><button class="buy" type="button">MUA</button></a>
+    </div>
+</div>
+<div class="Phấn_mắt">
+    <div class="row" value=" Phấn mắt" >
+        <img src="/img/phấn mắt 1.webp" alt="">
+        <div class="tag"> 59% </div>
+        <p class="Tên_SP"> Bảng Phấn Mắt Black Rouge Mood Fit Shadow Palette #S3 </p>
+        <p class="Giá">159.000đ</p>
+        <p class="Giá_gốc">349.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+    <div class="row" value=" Phấn mắt">
+        <img src="/img/phấn mắt 2.jpeg" alt="">
+        <div class="tag"> 49% </div>
+        <p class="Tên_SP"> Bảng Phấn Mắt Black Rouge Noir In The Shadow Palette #NS2 </p>
+        <p class="Giá">195.000đ</p>
+        <p class="Giá_gốc">349.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+    <div class="row" value=" Phấn mắt">
+        <img src="/img/phấn mắt 3.webp" alt="">
+        <div class="tag"> 39% </div>
+        <p class="Tên_SP">Bảng Phấn Mắt Và Má Hồng Đa Năng 9 Ô Màu Black Rouge Your Routine Eye Palette </p>
+        <p class="Giá">185.000đ</p>
+        <p class="Giá_gốc">349.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+</div>
+    <div class="Kẻ_mắt">
+    <div class="row" value=" Kẻ mắt">
+        <img src="/img/kẻ mắt 1.webp" alt="">
+        <div class="tag"> 39% </div>
+        <p class="Tên_SP">Kẻ Mắt Black Rouge The First Pen Eyeliner | SonAuth Official </p>
+        <p class="Giá">120.000đ</p>
+        <p class="Giá_gốc">249.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+    <div class="row" value=" Kẻ mắt" >
+        <img src="/img/kẻ mắt 2.webp" alt="">
+        <div class="tag"> 59% </div>
+        <p class="Tên_SP">Bút Kẻ Mắt Nước Chống Trôi Black Rouge The First Pen Eyeliner 0.5g </p>
+        <p class="Giá">109.000đ</p>
+        <p class="Giá_gốc">200.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+    <div class="row" value=" Kẻ mắt">
+        <img src="/img/kẻ mắt 3.webp" alt="">
+        <div class="tag"> 49% </div>
+        <p class="Tên_SP">Chì Kẻ Mắt Black Rouge Another Me The First Gel Eyeliner #G2 </p>
+        <p class="Giá">129.000đ</p>
+        <p class="Giá_gốc">249.000đ</p>
+        <button class="buy" type="button">MUA</button>
+    </div>
+</div>
+</div>
+   </section>
+
+
+
+   <!-------FOOTER-------->
+   <footer class="footer-web">
+    <div class="logo">
+        <a href="#"><img src="/img/logo.webp"></a>
+    </div>
+
+    <div class="rows">
+
+        <div class="col-4">
+            <h3>Về chúng tôi</h3>
+            <ul class="about-us">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""> Sản phẩm</a></li>
+                <li><a href=""> Khuyến mãi</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-4">
+            <h3>Chính sách</h3>
+            <ul class="Policy">
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="">Chính sách vận chuyển</a></li>
+                <li><a href="">Chính sách đổi trả</a></li>
+                <li><a href="">Quy định sử dụng</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-4">
+            <h3>Cửa hàng</h3>
+            <ul class="Store">
+                <li><a href="#">Lịch hẹn</a></li>
+                <li><a href="">Chính sách tại cửa hàng</a></li>
+                <li><a href="">Địa chỉ các cửa hàng</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-4">
+            <div class="contact">
+                <h3>Liên hệ với chúng tôi</h3>
+                <p><strong>Địa chỉ: </strong>Tòa nhà Bcons Tower II, số 42/1 Ung Văn khiêm, Phường 25, Quận Bình
+                    Thạnh,
+                    TP. Hồ Chí Minh</p>
+                <p><strong> Email: </strong>cskh@dmnc.vn or blackrougevn@gmail.com</p>
+                <p><strong> Điện thoại: </strong> 0909 312 350</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="icon-social">
+        <hr>
+        <div class="social">
+            <a href="#"><img src="/img/facebook_2168281.png"></a>
+            <a href="#"><img src="/img/instagram_1384015.png"></a>
+            <a href="#"><img src="/img/tiktok_3116491.png"></a>
+            <a href="#"><img src="/img/twitter_2168336.png"></a>
+        </div>
+
+        <div class="info-social">
+            <p>Công ty TNHH DM&C - MST: 03144724148 do sở Kế Hoạch và Đầu Tư Hồ Chí Minh cấp ngày 08/11/2017</p>
+            <p>For inquiries about our overseas partnership please send to: overseassales.dmnc@gmail.com</p>    
+
+        </div>
+        
+
+     
+
+    </div>
+
+
+</footer>
+   
+   <script>
+       const S_P = document.getElementById("SP");
+        const inputsearch = document.getElementById("inputsearch");
+        inputsearch.addEventListener("input", Loc);
+
+        
+        function Loc() {
+            const keyword = inputsearch.value.toLowerCase();
+            const products = Array.from(S_P.getElementsByTagName("div"));
+
+            products.forEach(product => {
+                const productName = product.textContent.toLowerCase();
+                if (productName.includes(keyword)) {
+                    product.style.display = "flex"; 
+                } else {
+                    product.style.display = "none"; 
+                }
+            });
+        }
+    document.addEventListener('DOMContentLoaded', function() {
+    const danhmuc = document.getElementById('danhmuc');
+    const SP = document.getElementById("SP").children;
+
+   danhmuc.addEventListener('change', function() {
+        const selectedBrand = danhmuc.value;
+
+        for (const product of SP) {
+            if (selectedBrand === 'all' || product.classList.contains(selectedBrand)) {
+                product.style.display = 'flex'; // Show product
+            } else {
+                product.style.display = 'none'; // Hide product
+            }
+        }
+    });
+});
+   </script>
+</body>
+</CK_WEB/HTML>

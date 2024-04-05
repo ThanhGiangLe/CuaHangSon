@@ -1,0 +1,44 @@
+.boxcenter {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box1 {
+    margin-right: 4%;
+}
+
+.box2,
+.box1 {
+    float: left;
+    width: 48%;
+}
+
+input {
+    background-color: #CCC;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dssp img {
+    height: 80px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ffaaaa;
+}
+
+th,
+td {
+    border: 1px #f4a9a9 solid;
+    padding: 5px 10px;
+    text-align: center;
+}
+

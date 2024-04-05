@@ -1,0 +1,237 @@
+.flex-box {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    font-family: Helvetica, sans-serif;
+
+}
+.left {
+    width: 40%;
+    margin-right: 20px;
+    font-family: Helvetica, sans-serif;
+
+}
+.big_img {
+    width: 400px;
+}
+.big_img img {
+    width: inherit;
+}
+.img {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.small_img {
+    width: 70px;
+    overflow: hidden;
+    border: 1.5 solid rgb(113, 113, 113);
+}
+.small_img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.small_img:hover {
+    transform: scale(1.2);
+}
+:right {
+    position: relative;
+    font-family: Helvetica, sans-serif;
+
+}
+.url a {
+    font-size: 15px;
+    font-weight:bolder;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+.Pname {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.GT {
+    font-size: 10px;
+}
+.GIA {
+ font-size: 30px;
+ color: red;
+ font-weight: bolder;
+ margin-top: 10px;
+}
+.GiaKM {
+    font-size: 12px;
+    color: darkgrey;
+    font-weight: lighter;
+    text-decoration-line: line-through;
+}
+.TT {
+    line-height: 27px;
+}
+.SL input {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.gioHang input{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.Mua_Thêm {
+    padding-top: 10px;
+}
+.Mua {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(18, 18, 18);
+    cursor: pointer;
+    box-shadow: 0 5px  10px  0px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    margin-left: 20px;
+}
+.Giỏ {
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(18, 18, 18);
+    cursor: pointer;
+    box-shadow: 0 5px  10px  0px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+.Mua:hover {
+    color: black;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.Giỏ:hover {
+    color: black;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+.Mo_ta {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tag {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-align: center;
+    border: 0;
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-left: 75px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0px rgb(0, 0, 0);
+}
+
+.img_MT img {
+    width: 300px;
+    height: 400px;
+    transition: 0.6s;
+
+}
+
+.img_MT img:hover{
+    transform: scale(1.1);
+
+}
+.showCart{
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 400px;
+    padding: 10px;
+    text-align: center;
+    width: 45%;
+    height: 500px;
+    border: 4px solid #fb98bf;
+    border-radius: 20px;
+}
+
+.showCart .hinhSP img{
+    width: 200px;
+    height: 250px;
+
+}
+
+.GiaSP{
+    font-size: 18px;
+    color: pink;
+    margin: 10px;
+    font-weight: 800;
+
+}
+
+.GiaSP button{
+    border: 0px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    color: gray;
+
+}
+
+.SoLuongSP button{
+    border: 0px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    color: gray;
+    margin: 0px 10px;
+    font-weight: 700;
+
+}
+
+
+.xoa{
+    background-color: rgb(255, 204, 136);
+    font-size: 18px;
+    color: gray;
+    margin: 0px 10px;
+    font-weight: 700;
+    padding: 5px;
+    width: 100px;
+
+}
+
+
+
+.SL{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+.SL button{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248, 167, 180);
+    border: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+

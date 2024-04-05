@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 25%;
+}
+#bg{
+    width: 100%;
+    height: 40vh;
+    animation: changeBackground 10s infinite;
+    background-image: url(/img/bgheader.jpg);
+    margin-top: 10px;
+
+}
+@keyframes changeBackground {
+    0% { background-image: url(/img/bgheader.jpg); }
+    50% { background-image: url(/img/bg_header2.jpg); }
+    100% { background-image: url(/img/bgheader3.jpg); }
+}
+
+

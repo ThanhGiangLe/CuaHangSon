@@ -1,0 +1,119 @@
+.tintuc{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.tintuc .link-header-tintuc{
+    display: flex;
+    list-style-type: none;
+    height: 30px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+
+.tintuc .link-header-tintuc li a{
+    margin-left: 12px;
+    font-size: 17px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+.tintuc .noidung-tintuc{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tintuc .noidung-tintuc h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.tintuc .noidung-tintuc .ngaydang{
+    color: gray;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.tintuc .noidung-tintuc p{
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    margin: 5px;
+}
+
+.tintuc .noidung-tintuc p strong{
+    color: rgb(255, 85, 85);
+}
+
+.tintuc .noidung-tintuc img{
+    width: 400px;
+    height: 400px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+.comment-tintuc{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 225, 231);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.comment-tintuc h3{
+    font-size: 20px;
+    color: rgb(127, 3, 28);
+    margin: 5px;
+}
+
+.comment-tintuc p{
+    font-size: 15px;
+    color: rgb(86, 86, 86);
+    margin: 5px;
+}
+
+.comment-tintuc textarea{
+    margin: 5px;
+    width: 80%;
+}
+
+.info-tintuc{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+
+.info-tintuc .info-user{
+    width: 50%;
+    font-size: 18px;
+
+}
+
+
+.info-tintuc .info-user input{
+    width: 90%;
+    height: 30px;
+}
+
+.info-tintuc button{
+    width: 12%;
+    height: 40px;
+    background-color: rgb(169, 71, 87);
+    border: 0px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 45%;
+    margin-top: 20px;
+}

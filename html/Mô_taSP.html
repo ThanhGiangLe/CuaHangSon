@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô tả sản phẩm</title>
+    <link rel="stylesheet" href="/css/Mô_tảSP.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/css/footer.css">
+
+
+    <script src="/js/home.js"></script>
+    <script src="/js/gioHang.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header-web">
+        <div class="menu">
+            <div class="logo">
+                <a href="/html/home.html"><img src="/img/logo.webp"></a>
+            </div>
+            <div class="list-menu">
+                <ul>
+                    <li class="sub-list-menu">
+                        <a href="/html/home.html">Trang chủ</a>
+                    </li>
+                    <li class="sub-list-menu">
+                        <a href="/html/aboutus.html">Giới thiệu</a>
+                    </li>
+
+                    <li class="product">
+                        <a href="javascript:void(0);" onmouseout="menuList()">Sản phẩm</a>
+                        <ul class="dropdown-content" id="productID">
+                            <li class="list-dropdown-content"><a href="#">Son Tint</a></li>
+                            <li class="list-dropdown-content"><a href="#">Son Kem</a></li>
+                            <li class="list-dropdown-content"><a href="#">Son Bóng</a></li>
+                            <li class="list-dropdown-content"><a href="#">Phấn phủ</a></li>
+                            <li class="list-dropdown-content"><a href="#">Phấn mắt</a></li>
+                            <li class="list-dropdown-content"><a href="#">Khác</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="sub-list-menu">
+                        <a href="#">Đăng ký</a>
+                    </li>
+
+                    <li class="news">
+                        <a href="/html/tintuc.html">Tin tức</a>
+                        <ul class="news-dropdown-content">
+                            <li class="list-dropdown-content"><a href="#">Cẩm nang làm đẹp</a></li>
+                            <li class="list-dropdown-content"><a href="#">Makeup</a></li>
+                            <li class="list-dropdown-content"><a href="#">Sức khoẻ phụ nữ</a></li>
+                            <li class="list-dropdown-content"><a href="#">Mỹ phẩm</a></li>
+                            <li class="list-dropdown-content"><a href="#">Làm đẹp cùng star</a></li>
+                            <li class="list-dropdown-content"><a href="#">Khác</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="search">
+                <input type="text" id="username" name="username">
+                <a href="/html/Sảnn_phẩm.html"><img src="/img/loupe.png"></a>
+            </div>
+
+            <div class="cartTrangChu" onclick="showCart()">
+                <a href="#"><img src="/img/ecommerce.png"></a>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big_img" id="imgSP">
+                <img id="hinhSP" src="/img/Son1.webp" alt="">
+            </div>
+            <div class="img">
+                <div class="small_img">
+                    <img src="/img/Son1.webp" onclick="showImg(this.src)">
+                </div>
+                <div class="small_img">
+                    <img src="/img/son1111.webp" alt="" onclick="showImg(this.src)">
+                </div>
+                <div class="small_img">
+                    <img src="/img/son11111.webp" alt="" onclick="showImg(this.src)">
+                </div>
+                <div class="small_img">
+                    <img src="/img/son11.webp" alt="" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="url">
+                <a href="/html/home.html">Trang Chủ</a>
+                >
+                <a href="/html/Sảnn_phẩm.html">Sản Phẩm</a>
+                >
+                <a href="/html/Mô_taSP.html">#CM6</a>
+            </div>
+
+            <div class="Pname" id="nameSP">Son Kem Lì Black Rouge Cyber Mellow Tint #CM6 Brick Emotion</div>
+            <div class="GT"><i> Thương hiệu: Black Rouge | Loại: LIP | Mã SP: 8809510687549</i></div>
+            <div class="GIA" id="giaBan">169,000 đồng</div>
+            <div class="GiaKM">299,000 đồng</div>
+            <div class="TT">
+                <ul>
+                    <li>Trọng lượng: 4g</li>
+                    <li>Đặc trưng:
+                        <br>- Thiết kế tinh tế & hiện đại.
+
+                        <br>- Bảng màu xu hướng mới, đa dạng lựa chọn từ những màu MLBB dễ dùng đến tone đỏ hiện đại,
+                        phù hợp với mọi nét đẹp.
+
+                        <br>- Chất son kem lì được cải tiến siêu mịn phủ đầy đôi môi quyến rũ, bền màu nhiều giờ mà vẫn
+                        không gây cảm giác khô nứt.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="gioHang" id="gioHangID">
+                <div class="SL">
+                    <label for="SL">Số lượng</label>
+                    <button id="trừ" onclick="trừ()"> - </button>
+                    <span id="S_luong">0</span>
+                    <button id="cộng" onclick="cộng()"> + </button>
+                </div>
+                <div class="Mua_Thêm">
+                    <button class="Giỏ" id="ThemGioHang" onclick="themVaoGioHang()">Thêm vào giỏ hàng</button>
+
+                    <button class="Mua">Mua Ngay</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- gio hang -->
+    <div class="showCart" id="showCartID" style="display: none;">
+        <table>
+            <tr>
+                <th>Mã SP</th>
+                <th>Hình</th>
+                <th>Tên</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <!-- <th>Xóa</th> -->
+            </tr>
+            <tbody id="mycart">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <!-- <td><input type="button" value="Xóa"></td> -->
+                </tr>
+            </tbody>
+            <tr>
+            </tr>
+        </table>
+
+
+        <div>
+            <a href="/html/Sub_success.html">Thanh Toán</a>
+        </div>
+    </div>
+
+
+
+
+    <button class="tag">
+        Mô tả Sản phẩm
+    </button>
+
+    <div class="Mo_ta">
+        <div class="img_MT">
+            <img src="/img/mota1.webp" alt="">
+        </div>
+        <div class="img_MT">
+            <img src="/img/mota2.webp" alt="">
+        </div>
+        <div class="img_MT">
+            <img src="/img/mota3.webp" alt="">
+        </div>
+        <div class="img_MT">
+            <img src="/img/mota4.webp" alt="">
+        </div>
+
+
+    </div>
+
+    <!-------FOOTER-------->
+    <footer class="footer-web">
+        <div class="logo">
+            <a href="#"><img src="/img/logo.webp"></a>
+        </div>
+
+        <div class="rows">
+
+            <div class="col-4">
+                <h3>Về chúng tôi</h3>
+                <ul class="about-us">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href=""> Sản phẩm</a></li>
+                    <li><a href=""> Khuyến mãi</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-4">
+                <h3>Chính sách</h3>
+                <ul class="Policy">
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="">Chính sách vận chuyển</a></li>
+                    <li><a href="">Chính sách đổi trả</a></li>
+                    <li><a href="">Quy định sử dụng</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-4">
+                <h3>Cửa hàng</h3>
+                <ul class="Store">
+                    <li><a href="#">Lịch hẹn</a></li>
+                    <li><a href="">Chính sách tại cửa hàng</a></li>
+                    <li><a href="">Địa chỉ các cửa hàng</a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-4">
+                <div class="contact">
+                    <h3>Liên hệ với chúng tôi</h3>
+                    <p><strong>Địa chỉ: </strong>Tòa nhà Bcons Tower II, số 42/1 Ung Văn khiêm, Phường 25, Quận Bình
+                        Thạnh,
+                        TP. Hồ Chí Minh</p>
+                    <p><strong> Email: </strong>cskh@dmnc.vn or blackrougevn@gmail.com</p>
+                    <p><strong> Điện thoại: </strong> 0909 312 350</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="icon-social">
+            <hr>
+            <div class="social">
+                <a href="#"><img src="/img/facebook_2168281.png"></a>
+                <a href="#"><img src="/img/instagram_1384015.png"></a>
+                <a href="#"><img src="/img/tiktok_3116491.png"></a>
+                <a href="#"><img src="/img/twitter_2168336.png"></a>
+            </div>
+
+            <div class="info-social">
+                <p>Công ty TNHH DM&C - MST: 03144724148 do sở Kế Hoạch và Đầu Tư Hồ Chí Minh cấp ngày 08/11/2017</p>
+                <p>For inquiries about our overseas partnership please send to: overseassales.dmnc@gmail.com</p>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <script>
+        let big_img = document.querySelector('.big_img img')
+        function showImg(pic) {
+            big_img.src = pic;
+        }
+
+        let Sluong = 0;
+        function cộng() {
+            Sluong++;
+            document.getElementById("S_luong").innerText = Sluong;
+        }
+        function trừ() {
+            Sluong--;
+            document.getElementById("S_luong").innerText = Sluong;
+        }
+
+    </script>
+
+</body>
+</html>

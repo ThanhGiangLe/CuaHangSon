@@ -1,0 +1,167 @@
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #5b5b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sign_Up  {
+    padding: 50px  50px;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10%;
+}
+.Tiêu_đề  {
+    color: #373941 ;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.Google  {
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    background-color: #4c6ff4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    box-shadow: 0 5px  10px  0px rgba(76,111,244,0.5);
+    cursor: pointer;
+
+}
+.FB  {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    background-color: #4c6ff4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    box-shadow: 0 5px  10px  0px rgba(76,111,244,0.5);
+        cursor: pointer;
+
+}
+.logo_gg  {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4c6ff4;
+    border-radius: 10px;
+}
+.logo_gg img {
+    width: 60px;
+}
+.logo_fb  {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4c6ff4;
+}
+.logo_fb img {
+    width: 40px;
+}
+.text {
+        display: block;
+        margin: 0 auto;
+}
+.or  {
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+    margin: 55px  auto;
+    position: relative;
+}
+.or span {
+    display: inline;
+    padding: 10px 30px;
+    background-color:#fff;
+    position: relative;
+    z-index: 2;
+}
+.or:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:translateY(-50%);
+}
+.Sign_Up label{
+    font-size: 16px;
+    color: #373941 ;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+   
+.Sign_Up input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:#F2f3f5 ;
+    outline: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.ĐN  {
+    padding: 25px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(130, 201, 30);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 5px  10px  0px rgb(130, 201, 30, 0.5);
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.Tạo_TK  {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+.link_đk {
+    color: pink;
+    text-decoration: none;
+     
+}

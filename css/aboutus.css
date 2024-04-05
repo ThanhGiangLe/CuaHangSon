@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.border{
+    border: 1px solid #000;
+}
+
+.VeChungToi{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.title-VeChungToi{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(209, 149, 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+    
+.Noidung{
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.Noidung .img-noidung{
+    width: 40%;
+}
+.Noidung .img-noidung .img-1{
+    width: 430px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+.Noidung .img-noidung .img-2{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    opacity: 0.8;
+    border-radius: 50%;
+
+}
+.Noidung .img-noidung .img-3{
+    width: 300px;
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.content-for-nd{
+    width: 60%;
+}
+
+.content-for-nd p{
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(120, 64, 74);
+    margin-bottom: 15px;
+    font-weight: 400;
+}
